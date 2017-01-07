@@ -1,6 +1,6 @@
 #AIDL
 ---
-
+http://www.jianshu.com/p/4e38cdc016c9
 1. 创建一个接口，再里面定义方法
 
 ```
