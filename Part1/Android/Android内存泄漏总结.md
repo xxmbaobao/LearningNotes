@@ -121,8 +121,7 @@ o = null;
 
 2、当集合里面的对象属性被修改后，再调用remove()方法时不起作用。
 
-例如：
-
+例如： //--->这个例子有问题  add 20170110 
 ```
 public static void main(String[] args)
 {
