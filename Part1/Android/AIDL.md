@@ -1,4 +1,13 @@
 #AIDL
+//
+可以参考这个连接(有一处错误:ontransact调用的是服务端的方法)
+
+创建.aidl文件
+
+service类中 实现aidl 转换后的类的stub借口(这个借口是Binder,Ibinder类型)并且在Service的Onbind方法返回
+activity中 通过serviceConnection 回调的方法 得到Ibinder 然后用asinterface 转换成Iinterface调用它的接口方法
+//
+
 ---
 http://www.jianshu.com/p/4e38cdc016c9
 1. 创建一个接口，再里面定义方法
